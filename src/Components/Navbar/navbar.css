@@ -1,0 +1,22 @@
+.navbar{
+    list-style: none;
+}
+li{
+    float: right;
+    text-align: center;
+    padding: 0 40px 0 40px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px;
+    cursor: pointer;
+    
+}
+.homelink{
+    float: left !important;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}

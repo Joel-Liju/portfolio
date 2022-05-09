@@ -1,0 +1,37 @@
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50vh 50vh 50vw;
+    position: absolute;
+    bottom: 0px;
+    border-color:  transparent   transparent  transparent #E01A4F;
+    transform: rotateX(180deg);
+  }
+  .triangle2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 80vw 50vh 50vw;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-color:  transparent  #CE1648 transparent  transparent ;
+    transform: rotateX(180deg);
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
