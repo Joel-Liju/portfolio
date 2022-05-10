@@ -1,37 +1,40 @@
 .triangle{
     width: 0;
     height: 0;
+    --visibility : 100%;
     border-style: solid;
     border-width: 0 50vh 50vh 50vw;
     position: absolute;
     bottom: 0px;
+    transition: 0.7s;
     border-color:  transparent   transparent  transparent #E01A4F;
     transform: rotateX(180deg);
+    opacity: var(--visibility);
   }
   .triangle2{
     width: 0;
     height: 0;
+    --visibility : 100%;
     border-style: solid;
     border-width: 0 80vw 50vh 50vw;
     position: absolute;
     bottom: 0px;
     right: 0px;
+    transition: 0.7s;
     border-color:  transparent  #CE1648 transparent  transparent ;
     transform: rotateX(180deg);
+    opacity: var(--visibility);
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+.homecontent{
+  /* position: absolute; */
+  padding: 10vh 0px 0px 10vw;
+  margin-right: 100px;
+  color: white;
+}
+.homecontent h1{
+  font-size: 80px;
+}
+.homecontent p{
+  font-size: 30px;
+}
   

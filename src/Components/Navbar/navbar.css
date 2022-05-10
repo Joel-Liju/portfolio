@@ -1,11 +1,23 @@
 .navbar{
     list-style: none;
+    position: fixed;
+    --navcolor : #077187;
+    z-index: 10;
+    background-color: var(--navcolor);
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s ease-in;
+    padding: 10px 2px 0px 0px;
 }
 li{
     float: right;
     text-align: center;
     padding: 0 40px 0 40px;
     font-size: 30px;
+    height: 100%;
     text-shadow: 1px 1px 2px;
     cursor: pointer;
     
@@ -16,6 +28,11 @@ li{
 a{
     color: black;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+a:hover{
+    text-decoration:underline;
 }
 a:visited{
     color: black;
