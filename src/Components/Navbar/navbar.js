@@ -3,17 +3,17 @@ function Navbar() {
   return (
     <div>
       <ul id = 'navbar' className='navbar'>
-        <li className='homelink'>
-          <a href='#homepage'>Home</a>
+        <li className='homelink link'>
+          <a id='item' href='#homepage'>Home</a>
         </li>
-        <li>
-          <a href='#contact'>Contact</a>
+        <li className='link'>
+          <a id='item' href='#contact'>Contact</a>
         </li>
-        <li>
-          <a href='#projects'>Projects</a>
+        <li className='link'>
+          <a id='item' href='#projects'>Projects</a>
         </li>
-        <li>
-          <a href='#aboutme'>About Me</a>
+        <li className='link'>
+          <a id='item' href='#aboutme'>About Me</a>
         </li>
       </ul>
     </div>

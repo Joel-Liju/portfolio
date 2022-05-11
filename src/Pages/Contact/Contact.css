@@ -1,0 +1,14 @@
+#contact{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    color: black;
+    height: 5%;
+    background-color: #CE1648;
+    justify-items:center;
+}
+#contact li{
+    padding: 0px 20px 0px 20px;
+    float: left;
+}

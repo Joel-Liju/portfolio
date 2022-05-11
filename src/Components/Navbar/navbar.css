@@ -1,5 +1,6 @@
 .navbar{
     list-style: none;
+    --navTextColor : white;
     position: fixed;
     --navcolor : #077187;
     z-index: 10;
@@ -11,8 +12,9 @@
     left: 0px;
     transition: 0.4s ease-in;
     padding: 10px 2px 0px 0px;
+    
 }
-li{
+.link{
     float: right;
     text-align: center;
     padding: 0 40px 0 40px;
@@ -21,19 +23,17 @@ li{
     text-shadow: 1px 1px 2px;
     cursor: pointer;
     
+    
 }
 .homelink{
     float: left !important;
 }
-a{
-    color: black;
+#item{
     text-decoration: none;
     height: 100%;
     width: 100%;
+    color: var(--navTextColor);
 }
-a:hover{
+#item:hover{
     text-decoration:underline;
-}
-a:visited{
-    color: black;
 }

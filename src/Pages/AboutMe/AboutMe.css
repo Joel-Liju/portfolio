@@ -1,3 +1,26 @@
 .aboutme{
     position: relative;
+    padding: 0px 0px 0px 10vw;   
+    --visibility: 0%;
+    /* margin-top: 20vh; */
+    transition: 1s;
+    z-index: -1;
+    opacity: var(--visibility);
+}
+.aboutme h1{
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px  black;
+}
+.aboutme h2{
+    text-decoration: underline dashed;
+}
+.aboutme ul{
+    padding: 0px 0px 0px 0px;
+    
+}
+.aboutme li{
+    padding: 0px 0px 0px 0px !important;
+    float: none;
+    text-align: left;
+    text-shadow: 3px 3px 2px black;
 }

@@ -20,17 +20,20 @@ function Homepage() {
   },[]);
   // console.log(scrollPosition);
   const r = document.getElementById('navbar');
-  const t1 = document.getElementById('triangle');
-  const t2 = document.getElementById('triangle2');
+  const t1 = document.getElementById('homepage');
+  const nc = document.getElementById('navbar');
+  const f1 = document.getElementById('aboutme');
   if(scrollPosition > 100){//if the scroll value is greater than 10
     r.style.setProperty('--navcolor',"#E01A4F");
+    nc.style.setProperty('--navTextColor','black')
     t1.style.setProperty('--visibility','0%')
-    t2.style.setProperty('--visibility','0%')
+    f1.style.setProperty('--visibility','100%');
   }
   else if(r){//ensuring r did load, back to original
     r.style.setProperty('--navcolor',"#077187");
     t1.style.setProperty('--visibility','100%')
-    t2.style.setProperty('--visibility','100%')
+    nc.style.setProperty('--navTextColor','white')
+    f1.style.setProperty('--visibility','0%');
   }
   
   // r.style.setProperty('--visibility', ((scrollPosition/500)-100)+"%")
@@ -40,11 +43,11 @@ function Homepage() {
     <div id="homepage">
       <div className = "homecontent">
           <h1>
-            Welcome . . .
+            Welcome <span className='dot1'>.</span>   <span className='dot2'>.</span>   <span className='dot3'>.</span>
           </h1>
           <p>
             My Name is Joel Liju Jacob, and I will be your guide to this website. Partly because it is my website.
-            I am a Comedian as you can tell, but also a problem solver maybe, but enough about me, let so check out, well... about me.
+            I am a Comedian as you can tell, but also a problem solver maybe, but enough about me, so let's check out, well... about me.
           </p>
       </div>
       <div>

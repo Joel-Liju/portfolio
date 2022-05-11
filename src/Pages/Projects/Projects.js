@@ -3,7 +3,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div id="projects" >
-        things
+        Projects a lot of them
     </div>
   );
 }
