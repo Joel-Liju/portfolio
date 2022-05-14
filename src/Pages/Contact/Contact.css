@@ -1,5 +1,6 @@
 #contact{
     margin-bottom: 0px;
+    text-align: center;
     position: absolute;
     width: 100%;
     list-style: none;
@@ -9,6 +10,12 @@
     justify-items:center;
 }
 #contact li{
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px !important;
     float: left;
+}
+.linkitems{
+    width: inherit;
+}
+.linkitem{
+    padding: 0px 10vh 0px 10vh;
 }

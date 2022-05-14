@@ -12,9 +12,12 @@ root.render(
   <>
     <Navbar />
     <Homepage />
+    <div id='pagecontent' className='pagecontent'>
     <AboutMe />
     <Projects />
     <Contact />
+    </div>
+    
   </>
  
 );

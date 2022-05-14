@@ -1,0 +1,16 @@
+#projects{
+    padding: 0px 0px 0px 10vw;
+}
+#projects h1{
+    text-decoration: underline !important;
+    text-shadow: 4px 4px 2px  black;
+}
+.projectsdeck{
+    text-align: center;
+}
+.projectsdeckcontent{
+    background-color: #ffffffaa;
+    color: black !important;
+    font-size: larger;
+    font-weight:bold;
+}

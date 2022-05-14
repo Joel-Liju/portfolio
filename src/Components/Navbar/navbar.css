@@ -1,7 +1,7 @@
 .navbar{
     list-style: none;
     --navTextColor : white;
-    position: fixed;
+    position: fixed !important;
     --navcolor : #077187;
     z-index: 10;
     background-color: var(--navcolor);
@@ -11,18 +11,17 @@
     top: 0px;
     left: 0px;
     transition: 0.4s ease-in;
-    padding: 10px 2px 0px 0px;
+    padding: 10px 2px 0px 0px !important;
     
 }
 .link{
-    float: right;
+    float: right !important;
     text-align: center;
     padding: 0 40px 0 40px;
     font-size: 30px;
     height: 100%;
     text-shadow: 1px 1px 2px;
     cursor: pointer;
-    
     
 }
 .homelink{

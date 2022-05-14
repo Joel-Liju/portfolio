@@ -1,11 +1,12 @@
 .aboutme{
     position: relative;
     padding: 0px 0px 0px 10vw;   
-    --visibility: 0%;
+    
     /* margin-top: 20vh; */
-    transition: 1s;
+    transition: 0.5s;
     z-index: -1;
-    opacity: var(--visibility);
+    
+    font-size: 20px;
 }
 .aboutme h1{
     text-decoration: underline;
@@ -15,8 +16,12 @@
     text-decoration: underline dashed;
 }
 .aboutme ul{
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
     
+}
+tr th{
+    font-size: 20px;
+    width: 40%;
 }
 .aboutme li{
     padding: 0px 0px 0px 0px !important;

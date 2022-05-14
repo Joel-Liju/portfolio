@@ -21,18 +21,17 @@ function Homepage() {
   // console.log(scrollPosition);
   const r = document.getElementById('navbar');
   const t1 = document.getElementById('homepage');
-  const nc = document.getElementById('navbar');
-  const f1 = document.getElementById('aboutme');
+  const f1 = document.getElementById('pagecontent');
   if(scrollPosition > 100){//if the scroll value is greater than 10
     r.style.setProperty('--navcolor',"#E01A4F");
-    nc.style.setProperty('--navTextColor','black')
+    r.style.setProperty('--navTextColor','black')
     t1.style.setProperty('--visibility','0%')
     f1.style.setProperty('--visibility','100%');
   }
   else if(r){//ensuring r did load, back to original
     r.style.setProperty('--navcolor',"#077187");
     t1.style.setProperty('--visibility','100%')
-    nc.style.setProperty('--navTextColor','white')
+    r.style.setProperty('--navTextColor','white')
     f1.style.setProperty('--visibility','0%');
   }
   

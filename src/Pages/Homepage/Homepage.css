@@ -12,7 +12,6 @@
   .triangle2{
     width: 0;
     height: 0;
-    
     border-style: solid;
     border-width: 0 80vw 50vh 50vw;
     position: absolute;
