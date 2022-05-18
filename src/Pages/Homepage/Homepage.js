@@ -6,9 +6,7 @@ function Homepage() {
   const handleScroll = () =>{
     const position = window.scrollY;
     setScrollPosiition(position);
-    
     // var rs = getComputedStyle(r);
-    
   };
 
   useEffect(()=>{
@@ -19,20 +17,18 @@ function Homepage() {
     };
   },[]);
   // console.log(scrollPosition);
-  const r = document.getElementById('navbar');
-  const t1 = document.getElementById('homepage');
-  const f1 = document.getElementById('pagecontent');
-  if(scrollPosition > 100){//if the scroll value is greater than 10
-    r.style.setProperty('--navcolor',"#E01A4F");
-    r.style.setProperty('--navTextColor','black')
-    t1.style.setProperty('--visibility','0%')
-    f1.style.setProperty('--visibility','100%');
+  const t1 = document.getElementById('homecontent');
+  const t2 = document.getElementById('triangles');
+  // const f1 = document.getElementById('pagecontent');
+  if(scrollPosition > 50){//if the scroll value is greater than 10
+    t1.style.setProperty('--visibility','0%');
+    t2.style.setProperty('--width','var(--margins)');
+    // f1.style.setProperty('--visibility','100%');
   }
-  else if(r){//ensuring r did load, back to original
-    r.style.setProperty('--navcolor',"#077187");
-    t1.style.setProperty('--visibility','100%')
-    r.style.setProperty('--navTextColor','white')
-    f1.style.setProperty('--visibility','0%');
+  else if(t1){//ensuring r did load, back to original
+    t1.style.setProperty('--visibility','100%');
+    t2.style.setProperty('--width','80vw');
+    // f1.style.setProperty('--visibility','0%');
   }
   
   // r.style.setProperty('--visibility', ((scrollPosition/500)-100)+"%")
@@ -40,18 +36,14 @@ function Homepage() {
   //   console.log(getComputedStyle(r).getPropertyValue('--rotation'))
   return (
     <div id="homepage">
-      <div className = "homecontent">
+      <div id='homecontent' className = "homecontent">
           <h1>
             Welcome <span className='dot1'>.</span>   <span className='dot2'>.</span>   <span className='dot3'>.</span>
-          </h1>
+          </h1> 
           <p>
             My Name is Joel Liju Jacob, and I will be your guide to this website. Partly because it is my website.
             I am a Comedian as you can tell, but also a problem solver maybe, but enough about me, so let's check out, well... about me.
           </p>
-      </div>
-      <div>
-        <div id = 'triangle' className='triangle' />
-        <div id = 'triangle2' className='triangle2' />
       </div>
     </div>
   );

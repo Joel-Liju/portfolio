@@ -1,31 +1,85 @@
 .aboutme{
     position: relative;
-    padding: 0px 0px 0px 10vw;   
-    
-    /* margin-top: 20vh; */
-    transition: 0.5s;
+    padding: 10px 30px 10px 30px;   
+    margin-top: 35vh;
+    transition: 0.7s;
     z-index: -1;
-    
     font-size: 20px;
+    border-radius: 10px;
+    animation: floater 2s ease-in 1s infinite backwards alternate;
+    background-color: #10829a;
+    
 }
 .aboutme h1{
-    text-decoration: underline;
+    text-align: center;
+    animation: letterfloater 2s ease-in 1s infinite backwards alternate;
     text-shadow: 4px 4px 2px  black;
 }
 .aboutme h2{
-    text-decoration: underline dashed;
+    /* text-decoration: underline dashed; */
+    text-shadow: 3px 3px 2px black;
+
 }
 .aboutme ul{
     padding: 0px 0px 0px 20px;
     
 }
-tr th{
+.abouttable{
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+.abouttabledata{
+    width: fit-content ;
+    /* padding: 0 0 0 100px; */
+    /* margin-left: 100px; */
+}
+.abouttitles {
+    padding: 0 10px 0 10px;
+    width: 100%;
+    text-align: left;
+}
+.aboutcontent{
+    padding: 0 10px 0 10px;
+    width: 100%;
+    text-align: center;
+}
+.abouttitles th{
     font-size: 20px;
-    width: 40%;
+    /* width: 0; */
+    /* width: 100%; */
+    /* float: left; */
+}
+.aboutcontent th{
+    font-size: 20px;
+    /* width: 100%; */
+    text-align: center;
 }
 .aboutme li{
     padding: 0px 0px 0px 0px !important;
     float: none;
     text-align: left;
-    text-shadow: 3px 3px 2px black;
+    
+}
+@keyframes floater {
+    0%{
+        /* padding: 10px 12px 10px 25px; */
+        box-shadow: 0 0 5px 0 black;
+    }
+    100%{
+        /* padding: 10px 24px 10px 6px; */
+        box-shadow: 0 0 20px 0 black;
+    }
+}
+@keyframes letterfloater{
+    0%{
+        padding: 10px 12px 10px 25px;
+        /* box-shadow: 0 0 5px 0 black; */
+    }
+    100%{
+        padding: 10px 24px 10px 6px;
+        /* box-shadow: 0 0 20px 0 black; */
+    }
 }

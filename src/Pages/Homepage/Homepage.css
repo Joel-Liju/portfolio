@@ -1,51 +1,27 @@
-.triangle{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 50vh 50vh 50vw;
-    position: absolute;
-    bottom: 0px;
-    
-    border-color:  transparent   transparent  transparent #E01A4F;
-    transform: rotateX(180deg);
-  }
-  .triangle2{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 80vw 50vh 50vw;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    transition: 0.7s;
-    border-color:  transparent  #CE1648 transparent  transparent ;
-    transform: rotateX(180deg);
-    
-  }
 #homepage{
-  --visibility : 100%;
-  transition: 0.7s;
-  opacity: var(--visibility);
-}
-
+    --width : 80vw;
+  }
 .homecontent{
   /* position: absolute; */
+  --visibility : 100%;
+  transition: 0.7s;
   padding: 10vh 0px 0px 10vw;
-  margin-right: 100px;
+  margin-right: var(--margins);
   color: white;
 }
+
 .homecontent h1{
   font-size: 80px;
   
 }
 .dot1{
-  animation: dots 2s ease-in 1s infinite forwards alternate;
+  animation: dots 2s ease-in 1s infinite backwards alternate;
 }
 .dot2{
-  animation: dots 2s ease-in 2s infinite forwards alternate;
+  animation: dots 2s ease-in 2s infinite backwards alternate;
 }
 .dot3{
-  animation: dots 2s ease-in 3s infinite forwards alternate;
+  animation: dots 2s ease-in 3s infinite backwards alternate;
 }
 .homecontent p{
   font-size: 30px;

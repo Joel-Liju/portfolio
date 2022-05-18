@@ -1,18 +1,26 @@
 import './Contact.css';
-import { Envelope, Github } from 'react-bootstrap-icons';
+import { Envelope, Github, Linkedin } from 'react-bootstrap-icons';
 
 function Contact() {
   return (
-    <div id='contact'>
+    <table id='contact'>
+      <tbody>
       <tr className='linkitems'>
         <th className='linkitem'>
-          <Envelope />
+          <p>Email me</p>
+          <a href='mailto: joelliju10@gmail.com'><Envelope size='5%'/> </a>
         </th>
         <th className='linkitem'>
-          <a href='https://github.com/Joel-Liju'><Github /></a>
+        <p>Check out my GitHub</p>
+          <a href='https://github.com/Joel-Liju'><Github size='5%'/></a>
+        </th>
+        <th className='linkitem'>
+          <p>Connect with me on Linkedin</p>
+          <a href='https://www.linkedin.com/in/joel-liju-jacob/'><Linkedin size='5%'/></a>
         </th>
       </tr>
-    </div>
+      </tbody>
+    </table>
     
   );
 }
