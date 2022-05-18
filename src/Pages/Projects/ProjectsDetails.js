@@ -1,13 +1,13 @@
 const Projects =[
     {
         "name":"Brock Chat Bot",
-        "desc":"This is a chat bot which answers simple questions from the user, where we accomplished this using software development methodology like Scrum",
+        "desc":"This is a chat bot which answers simple questions from the user. We accomplished this using software development methodology like Scrum, and different tools that were available.",
         "toolsused":"React, Flask, Docker, Selenium, PyTest, Python",
         "imageURL":"/pictures/chatbot.png"
     },
     {
         "name":"Chess",
-        "desc":"The objective of the project was to create a Chess game using AI, we accomplished this using Alpha-Beta Pruning algorithm",
+        "desc":"The objective of the project was to create a Chess game using AI, we accomplished this using Alpha-Beta Pruning algorithm.",
         "toolsused":"Java, Java Swing, GitHub",
         "imageURL":"/pictures/chess.png"
     },

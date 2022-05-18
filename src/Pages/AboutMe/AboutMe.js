@@ -7,8 +7,8 @@ function Aboutme() {
         About Myself
       </h1>
       <p>
-        I am an aspiring Computer Science Student, who loves to learn new technologies. Always curious about things, and always tries to better myself.
-        My biggest strengths would be my willingness to learn. Below you can read some of my interest in general and my Computer Science Interests. The reason why I choose this field is because I love problem solving, and trying to create new tools to help others.
+        I am an inspried coder, who loves to learn new technologies and apply them to my everyday life. Always curious about things, and always tries to better myself.
+        My biggest strengths would be my willingness to learn, but you know what they said, curiousity killed the cat. Below you can read more about myself.
       </p>
       <table className='abouttable'>
         <tbody className='abouttabledata'>
@@ -38,24 +38,33 @@ function Aboutme() {
                   Puzzles
                 </li>
                 <li>
-                  Video Games
+                  Mathematics
                 </li>
                 <li>
-                  Table top games (Especially DND)
-                </li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  cooking
+                  Music
                 </li>
               </ul>
             </td>
             <td>
               <ul>
                 <li>
-                  Full Stack Development
+                  Uses Java, C, C++, Python, Javscript
+                </li>
+                <li>
+                  Can and will sing
+                </li>
+                <li>
+                  Quick learner
+                </li>
+                <li>
+                  Eager to learn
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Web Development
                 </li>
                 <li>
                   Algorithms
@@ -74,28 +83,29 @@ function Aboutme() {
           </tr>
           <tr className='abouttitles'>
             <th>
-          <h2>
-               General Interests
-           </h2>
+              <h2>
+                Hobbies
+              </h2>
             </th>
             <th>
               <h2>
-              Skills
+                Games I play
               </h2>
-              
             </th>
             <th>
-            <h2>Computer Science Interests</h2>
+              <h2>
+                Most Weird Planets
+              </h2>
             </th>
           </tr>
           <tr className='aboutcontent'>
             <td>
               <ul>
                 <li>
-                  Space
+                  Reading Books
                 </li>
                 <li>
-                  Puzzles
+                  Hiking
                 </li>
                 <li>
                   Video Games
@@ -103,31 +113,43 @@ function Aboutme() {
                 <li>
                   Table top games (Especially DND)
                 </li>
-              </ul>
-            </td>
-            <th>
-              <ul>
                 <li>
-                  cooking
+                  Solving Rubix cubes
                 </li>
               </ul>
-            </th>
+            </td>
             <td>
               <ul>
                 <li>
-                  Full Stack Development
+                  Rocket League
                 </li>
                 <li>
-                  Algorithms
+                  League of Legends
                 </li>
                 <li>
-                  Block Chain
+                  Chess
                 </li>
                 <li>
-                  Machine Learning
+                  DND
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  J1407b
                 </li>
                 <li>
-                  Data Science
+                  Gj-1214b
+                </li>
+                <li>
+                  Gliese 436b
+                </li>
+                <li>
+                  Hd 189733b
+                </li>
+                <li>
+                  Psr B1620-26 B
                 </li>
               </ul>
             </td>

@@ -5,7 +5,7 @@
     text-align: center;
     width: 100%;
     list-style: none;
-    color: black;
+    color: white;
     /* height: 20%; */
     padding: 0 0 0 0;
     z-index: 2;
@@ -22,5 +22,5 @@
     padding: 0 0 0 0;
 }
 a{
-    color: black;
+    color: white;
 }
